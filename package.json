@@ -1,0 +1,30 @@
+{
+  "name": "heroku-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10.15.3",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirrezarajabii/heroku-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirrezarajabii/heroku-website/issues"
+  },
+  "homepage": "https://github.com/amirrezarajabii/heroku-website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.1",
+    "express": "^4.17.0",
+    "mongodb": "^3.2.5"
+  }
+}
