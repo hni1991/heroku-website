@@ -23,6 +23,7 @@
   "homepage": "https://github.com/amirrezarajabii/heroku-website#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
     "ejs": "^2.6.1",
     "express": "^4.17.0",
     "mongodb": "^3.2.5"
