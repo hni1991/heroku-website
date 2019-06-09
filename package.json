@@ -22,10 +22,11 @@
   },
   "homepage": "https://github.com/amirrezarajabii/heroku-website#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "crypto": "^1.0.1",
+    "bcrypt": "^3.0.6",
     "ejs": "^2.6.1",
     "express": "^4.17.0",
-    "mongodb": "^3.2.5"
+    "express-session": "^1.16.1",
+    "mongodb": "^3.2.5",
+    "multer": "^1.4.1"
   }
 }

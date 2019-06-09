@@ -71,9 +71,10 @@
             
             <div class="row justify-content-center mt-5">
               <div class="col-md-8 text-center">
-                <h1><%=userMessage%></h1>
+               <!--<h1><%=userMessage%></h1>--> 
               </div>
             </div>
+          
 
             
           </div>
@@ -84,14 +85,38 @@
     <div class="site-section bg-light">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-7 mb-5"  data-aos="fade">
+          <div class="col-md-10 mb-5"  data-aos="fade">
 
-            
+         
 
             
           </div>
           
         </div>
+      </div>
+      <div class="container">
+
+        <form action="/uploadads" method="POST" enctype="multipart/form-data">
+          <h1> Add Ads !! :) </h1>
+          <input type="text" placeholder="Name of proudact" name="nameP">
+          <br>
+          <br>
+          <input type="text" placeholder="Adress" name="adressP">
+          <br>
+          <br>
+          <input type="text" placeholder="Key word" name="keywordP">
+          <br>
+          <br>
+          <input type="text" placeholder="category" name="categoryP">
+          <br>
+          <br>
+          <input type="file"   name="imageP">
+          <br>
+          <br>
+          <input type="submit"  value="Add">
+          
+
+        </form>
       </div>
     </div>
 
